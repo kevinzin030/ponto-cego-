@@ -1,196 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cases| Ponto Cego</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cases | Ponto Cego</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-
-<header>
-<div class="container">
-
-<div class="logo">
-    <img src="img/Logo_Ponto_Cego-removebg-preview.png" alt="Ponto Cego">
-    <div class="logo-text">
-        PONTO <span>CEGO</span>
-    </div>
-</div>
-
-<nav>
-    <a href="index.html">Início</a>
-    <a href="sobre.html">Sobre</a>
-    <a href="servicos.html">Serviços</a>
-    <a href="cases.html">Cases</a>
-    <a href="contato.html">Contato</a>
-</nav>
-
-<a href="#contato" class="btn-header">
-Agendar Diagnóstico
-</a>
-
-</div>
+<header id="hdr">
+  <div class="container">
+    <div class="logo"><img src="img/Logo_Ponto_Cego-removebg-preview.png" alt="Ponto Cego"><div class="logo-text">PONTO <span>CEGO</span></div></div>
+    <nav>
+      <a href="index.html">Início</a><a href="sobre.html">Sobre</a>
+      <a href="servicos.html">Serviços</a><a href="cases.html" class="active">Cases</a><a href="contato.html">Contato</a>
+    </nav>
+    <a href="contato.html" class="btn-header">Agendar Diagnóstico</a>
+  </div>
 </header>
 
 <section class="page-hero">
-
-<div class="container">
-
-<h1>Resultados Reais</h1>
-
-<p>
-Projetos que geraram ganhos financeiros.
-</p>
-
-</div>
-
+  <div class="container">
+    <div class="section-label" style="justify-content:center">Portfólio</div>
+    <h1>Resultados <em style="font-style:italic;color:#ddb04a">Verificáveis</em></h1>
+    <p>6 projetos reais, com números reais — savings auditáveis gerados para nossos clientes.</p>
+  </div>
 </section>
 
-<section>
+<section class="cases" style="padding-top:60px">
+  <div class="container">
+    <div class="cases-page-grid">
 
-<div class="container">
+      <div class="case reveal reveal-d1">
+        <span class="case-tag">Network Design · FMCG</span>
+        <h3>Redução de R$ 15M em Fretes com Redesenho de Malha</h3>
+        <p><strong style="color:#e8e6e0">O Problema:</strong> Indústria FMCG em expansão nacional enviava mercadorias do Nordeste a partir de um único CD em São Paulo — fretes altíssimos e prazos de até 8 dias.</p>
+        <p style="margin-top:12px"><strong style="color:#e8e6e0">A Solução:</strong> Modelo matemático cruzando dados de vendas, custos de frete e incentivos fiscais comprovou abertura de hub no Espírito Santo e CD parceiro em Pernambuco.</p>
+        <div class="case-result">↓ 14% custo total de transporte · R$ 15M saving/ano · Prazo Nordeste: 8 → 2 dias</div>
+      </div>
 
-<div class="case-grid cases-page-grid">
+      <div class="case reveal reveal-d2">
+        <span class="case-tag">Intralogística · E-commerce</span>
+        <h3>Virada de Produtividade em CD de Varejo Digital</h3>
+        <p><strong style="color:#e8e6e0">O Problema:</strong> Grande varejista de moda com e-commerce colapsou na Black Friday — tempo de separação disparou, gerando milhares de reclamações e cancelamentos.</p>
+        <p style="margin-top:12px"><strong style="color:#e8e6e0">A Solução:</strong> Redesenho de layout com zona exclusiva para e-commerce baseada em Curva ABC e implementação de batch picking.</p>
+        <div class="case-result">↑ 40% produtividade de picking · Zero backlog na Black Friday seguinte</div>
+      </div>
 
-<div class="case">
-<h3>Redução de R$ 15M em Fretes com Redesenho de Malha (Network Design)</h3>
-<br>
-<p>
-O Cliente: Uma indústria de bens de consumo (FMCG) em forte expansão nacional.
-<br><br>
-O Problema: O crescimento acelerado pulverizou as vendas. A empresa estava enviando mercadorias para o Nordeste a partir de um único Centro de Distribuição em São Paulo, gerando fretes altíssimos e prazos de entrega de até 8 dias.
-<br><br>
-A Solução da Boutique: A consultoria rodou um modelo matemático de malha logística cruzando dados de vendas, custos de frete e incentivos fiscais. O estudo provou que a abertura de um hub avançado no Espírito Santo e um CD parceiro em Pernambuco traria o melhor equilíbrio.
-<br><br>
-O Resultado: Redução de 14% no custo total de transporte (saving de R$ 15 milhões ao ano) e o tempo de entrega no Nordeste caiu de 8 para 2 dias.
-</p>
-</div>
+      <div class="case reveal reveal-d3">
+        <span class="case-tag">S&OP · Indústria Química</span>
+        <h3>Alinhamento de Diretoria com Implantação de S&OP</h3>
+        <p><strong style="color:#e8e6e0">O Problema:</strong> Multinacional química com "guerra" entre diretorias. Comercial vendia o que a fábrica não produzia; estoques obsoletos prendiam capital de giro.</p>
+        <p style="margin-top:12px"><strong style="color:#e8e6e0">A Solução:</strong> Ritual de S&OP em 5 etapas mensais com KPIs, donos e reunião executiva com CEO.</p>
+        <div class="case-result">OTIF: 82% → 96% · Estoque global ↓ 22% em 8 meses</div>
+      </div>
 
-<div class="case">
-<h3>Virada de Produtividade em CD de E-commerce (Intralogística)</h3>
-<br>
-<p>
-O Cliente: Um grande varejista de moda migrando fortemente para o e-commerce.
-<br><br>
-O Problema: O estoque do site ficava no mesmo CD das lojas físicas. Na Black Friday, a operação colapsou: o tempo de separação de um pedido disparou, gerando milhares de reclamações e cancelamentos por atraso.
-<br><br>
-A Solução da Boutique: Os consultores redesenharam o layout interno do armazém criaram uma zona exclusiva para o e-commerce baseada em Curva ABC (produtos mais vendidos perto das bancas de embalagem). Implementaram também a metodologia de colheita em lote (batch picking).
-<br><br>
-O Resultado: Aumento de 40% na produtividade de separação (picking) e eliminação total do backlog de pedidos na Black Friday seguinte, sem a necessidade de expandir a área física do galpão.
-</p>
-</div>
+      <div class="case reveal reveal-d1">
+        <span class="case-tag">Strategic Sourcing · Fast Food</span>
+        <h3>Redução de TCO em Embalagens para Rede de Franquias</h3>
+        <p><strong style="color:#e8e6e0">O Problema:</strong> Margens espremidas pela inflação. Custo de embalagens acima do mercado com dependência de 2 fornecedores que ditavam preços.</p>
+        <p style="margin-top:12px"><strong style="color:#e8e6e0">A Solução:</strong> Strategic Sourcing com composição de custos, desenvolvimento de fornecedores regionais e negociação baseada em TCO.</p>
+        <div class="case-result">↓ 11% custo de embalagens · Dependência de fornecedores: 100% → 40%</div>
+      </div>
 
-<div class="case">
-<h3>Alinhamento de Diretoria com Implantação de S&OP</h3>
-<br>
-<p>
-O Cliente: Uma multinacional de médio porte do setor químico.
-<br><br>
-O Problema: Falta de alinhamento e "guerra" entre as diretorias. Comercial vendia o que a fábrica não tinha capacidade de produzir; Finanças reclamava do capital de giro preso em estoques obsoletos.
-<br><br>
-A Solução da Boutique: Estruturação da governança do S&OP (Sales and Operations Planning). A consultoria desenhou o ritual de 5 etapas mensais (Previsão de Demanda, Planejamento de Capacidade, Conciliação Financeira e Reunião Executiva com o CEO), definindo donos e KPIs claros.
-<br><br>
-O Resultado: O nível de serviço (OTIF) subiu de 82% para 96% em 8 meses, e o estoque global da companhia foi reduzido em 22% pelo fim dos excessos especulativos.
-</p>
-</div>
+      <div class="case reveal reveal-d2">
+        <span class="case-tag">Torre de Controle · Farmacêutico</span>
+        <h3>Torre de Controle para Governança de Transportes</h3>
+        <p><strong style="color:#e8e6e0">O Problema:</strong> Distribuidora de medicamentos de alta complexidade descobria atrasos e quebras de temperatura somente quando o hospital ligava reclamando.</p>
+        <p style="margin-top:12px"><strong style="color:#e8e6e0">A Solução:</strong> Integração EDI/API com transportadoras e dashboard de visibilidade em tempo real com alertas automáticos.</p>
+        <div class="case-result">On-time: 98,5% · Perdas por temperatura: zero</div>
+      </div>
 
-<div class="case">
-<h3>Strategic Sourcing e Redução de TCO em Embalagens</h3>
-<br>
-<p>
-O Cliente: Uma grande rede de franquias de alimentação (Fast Food).
-<br><br>
-O Problema: Margens espremidas pela inflação. O custo de embalagens descartáveis estava subindo acima do mercado e a empresa dependia de dois fornecedores que ditavam os preços.
-<br><br>
-A Solução da Boutique: Aplicação de Strategic Sourcing. A consultoria destrinchou a composição de custos das embalagens (matéria-prima, resina, frete), desenvolveu novos fornecedores regionais homologados e liderou uma rodada de negociação baseada em TCO (Total Cost of Ownership).
-<br><br>
-O Resultado: Economia anual de 11% na categoria de embalagens e diversificação do risco de abastecimento (a dependência dos fornecedores antigos caiu de 100% para 40%).
-</p>
-</div>
-
-<div class="case">
-<h3>Construção da "Torre de Controle" para Governança de Transportes</h3>
-<br>
-<p>
-O Cliente: Distribuidora de medicamentos de alta complexidade.
-<br><br>
-O Problema: A diretoria não tinha visibilidade real do nível de serviço das transportadoras terceirizadas. Só descobriam que uma carga de vacinas tinha atrasado ou estragado (por quebra de temperatura) quando o hospital ligava reclamando.
-<br><br>
-A Solução da Boutique: A consultoria padronizou a troca de dados (arquivos EDI/API) entre os sistemas das transportadoras e a distribuidora. Criou um dashboard de visibilidade em tempo real (Torre de Controle) com alertas automáticos para atrasos e desvios de temperatura.
-<br><br>
-O Resultado: O índice de entregas no prazo subiu para 98,5% e as perdas de carga por problemas de temperatura foram reduzidas a zero devido à capacidade de reação rápida.
-</p>
-</div>
-
-<div class="case">
-<h3>Logística Verde com Redução de Emissões e Custos (ESG)</h3>
-<br>
-<p>
-O Cliente: Uma corporação de cosméticos com metas públicas agressivas de sustentabilidade.
-<br><br>
-O Problema: Pressão do conselho para reduzir as emissões de CO₂ no transporte rodo-aéreo nacional, mas sem estourar o orçamento de logística.
-<br><br>
-A Solução da Boutique: Mapeamento da pegada de carbono atual. A consultoria redesenhou rotas para consolidar cargas (evitando caminhões andando batendo lata), introduziu uma frota parceira de veículos elétricos para o last mile nas capitais e substituiu o modal aéreo por rodoviário expresso em rotas de até 800km.
-<br><br>
-O Resultado: Redução de 25% na emissão de gases de efeito estufa (Escopo 3) nessas rotas e, surpreendentemente, uma redução de 7% no custo logístico devido à consolidação de cargas.
-</p>
-</div>
-</div>
-
-
-</div>
-
-</div>
-
-</section>
-<section class="contato" id="contato">
-
-    <div class="container">
-
-        <h2>Fale Conosco</h2>
-
-        <div class="contato-grid">
-
-            <div class="contato-card">
-                <h3>WhatsApp</h3>
-                <a href="https://wa.me/5512988086199">
-                    (12) 98808-6199
-                </a>
-            </div>
-
-            <div class="contato-card">
-                <h3>E-mail</h3>
-                <a href="mailto:pontocegoscm@gmail.com">
-                    pontocegoscm@gmail.com
-                </a>
-            </div>
-
-            <div class="contato-card">
-                <h3>Reunião Executiva</h3>
-                <a href="#" class="btn-agendar">
-                    Agendar Agora
-                </a>
-            </div>
-
-        </div>
+      <div class="case reveal reveal-d3">
+        <span class="case-tag">ESG · Cosméticos</span>
+        <h3>Logística Verde com Redução de Emissões e Custos</h3>
+        <p><strong style="color:#e8e6e0">O Problema:</strong> Pressão do conselho para reduzir CO₂ no transporte nacional sem estourar o orçamento logístico.</p>
+        <p style="margin-top:12px"><strong style="color:#e8e6e0">A Solução:</strong> Redesenho de rotas para consolidar cargas, frota elétrica parceira no last-mile das capitais e substituição de aéreo por rodoviário expresso em rotas &lt;800km.</p>
+        <div class="case-result">↓ 25% emissões GEE (Escopo 3) · ↓ 7% custo logístico</div>
+      </div>
 
     </div>
-
+  </div>
 </section>
 
+<section class="cta">
+  <div class="cta-inner">
+    <h2 class="reveal">Seu próximo case de sucesso começa com um <em>diagnóstico.</em></h2>
+    <a href="contato.html" class="btn-primary reveal">Agendar Diagnóstico Gratuito</a>
+  </div>
+</section>
+
+<section class="contato">
+  <div class="container">
+    <h2 class="reveal">Fale Conosco</h2>
+    <div class="contato-grid">
+      <div class="contato-card reveal reveal-d1"><h3>WhatsApp</h3><a href="https://wa.me/5512988086199">(12) 98808-6199</a></div>
+      <div class="contato-card reveal reveal-d2"><h3>E-mail</h3><a href="mailto:pontocegoscm@gmail.com">pontocegoscm@gmail.com</a></div>
+      <div class="contato-card reveal reveal-d3"><h3>Reunião Executiva</h3><a href="contato.html" class="btn-agendar">Agendar Agora</a></div>
+    </div>
+  </div>
+</section>
 <footer>
-
-<p>
-© 2026 kevin luiz 
-</p>
-
-<p>
-contato@pontocego.com.br
-</p>
-
+  <div class="footer-logo">PONTO <span>CEGO</span></div>
+  <p>Consultoria Boutique em Logística &amp; Supply Chain</p>
+  <p>© 2026 Ponto Cego · contato@pontocego.com.br</p>
 </footer>
-
-</body>
-</html>
+<script>
+const hdr=document.getElementById('hdr');
+window.addEventListener('scroll',()=>hdr.classList.toggle('scrolled',scrollY>50));
+const obs=new IntersectionObserver(en=>en.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible');}),{threshold:.14});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+</script>
+</body></html>
