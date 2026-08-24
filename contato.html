@@ -60,10 +60,45 @@
         <label for="mensagem">Descreva o desafio da sua operação</label>
         <textarea id="mensagem" name="mensagem" rows="6" placeholder="Qual é o maior problema logístico que você enfrenta hoje?" required></textarea>
       </div>
-      <button type="submit" class="btn-form">Enviar Solicitação →</button>
+    
+
+      <button type="submit" class="btn-form">
+        Enviar Solicitação →
+      </button>
     </form>
   </div>
 </section>
+
+<script>
+document.querySelector(".contato-form").addEventListener("submit", function(event) {
+  event.preventDefault();
+
+  const nome = document.getElementById("nome").value;
+  const empresa = document.getElementById("empresa").value;
+  const cargo = document.getElementById("cargo").value;
+  const telefone = document.getElementById("telefone").value;
+  const email = document.getElementById("email").value;
+  const assunto = document.getElementById("assunto").value;
+  const mensagem = document.getElementById("mensagem").value;
+
+  const texto = `Olá! Gostaria de solicitar um diagnóstico.
+
+Nome: ${nome}
+Empresa: ${empresa}
+Cargo: ${cargo}
+WhatsApp: ${telefone}
+E-mail: ${email}
+Área de Interesse: ${assunto}
+
+Desafio da operação:
+${mensagem}`;
+
+  const url = `https://wa.me/5512988086199?text=${encodeURIComponent(texto)}`;
+
+  window.open(url, "_blank");
+});
+</script>
+
 
 <section class="contato" style="padding-top:0">
   <div class="container">
